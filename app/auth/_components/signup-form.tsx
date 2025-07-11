@@ -59,7 +59,9 @@ export function SignupForm() {
         <RegisterLink
           authUrlParams={{
             connection_id: process.env.NEXT_PUBLIC_KINDE_CONNECTION_GOOGLE as string,
-            post_login_redirect_url: `${window.location.origin}/dashboard`,
+            login_hint: email,
+            pricing_table_key: "user_plans",
+            //post_login_redirect_url: `${window.location.origin}/dashboard`,
           }}
           className="w-full"
         >
