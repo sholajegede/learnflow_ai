@@ -12,17 +12,19 @@ LearnFlow AI is an intelligent learning platform that provides personalized educ
 - 🔍 **Smart Search**: Easily find learning companions and resources
 - 👥 **User Profiles**: Personalized dashboards and learning history
 - 🔄 **Real-time Updates**: Powered by Convex for seamless data synchronization
+- 💳 **Subscription Management**: Integrated billing system with multiple subscription tiers
+- 🔒 **Secure Payments**: Safe and secure payment processing through Kinde Billing
 
 ## Tech Stack
 
 - **Frontend**: Next.js 13+ with TypeScript
 - **Styling**: Tailwind CSS with Radix UI components
-- **Authentication**: Kinde Authentication
+- **Authentication & Billing**: Kinde (Authentication & Billing)
 - **Database & Backend**: Convex
 - **Voice AI**: Vapi.ai
 - **State Management**: React Context API
 - **Animation**: Framer Motion
-- **Icons**: Lucide Icons
+- **Icons**: Lucide Icons & Tabler Icons
 
 ## Getting Started
 
